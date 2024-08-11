@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Macros Calculator</title>
+</head>
+<body class="md:bg-neutral-100">
+     
+    <section class="md:place-content-center h-[100vh]">
+        <div class="bg-white font-bold mx-auto md:shadow-lg md:h-2/4  md:w-3/4 md:rounded-3xl md:flex">
+  
+            <!-- Parte de formulario -->
+            <div class="text-center md:w-1/2 py-12 md:py-6 bg-gradient-to-b from-cyan-500 to-blue-500 rounded-b-3xl md:rounded-3xl md:place-content-center">
+                <h1 class="text-2xl pb-2 text-white">Macros Calculator</h1>
+                <form action="" id="formulario" >
+                    <input type="text" name="weight" id="weight" placeholder=" Enter your weight" class="px-4 py-2 mb-4 font-semibold text-sm  rounded-md w-3/4"> 
+                    <button type="submit" class="px-4 py-2 font-semibold  text-white bg-white/25 border uppercase hover:scale-105 rounded-lg w-3/4">Calculate</button>
+                 </form> 
+                 
+            </div>
+            
+            <!-- Parte de resultados -->
+            <div class="text-center font-semibold w-3/4 py-6 mx-auto md:w-1/2 md:place-content-center" id="mostrar-resultados">
+                <div class="md:w-3/4 md:mx-auto">
+                    <h3 class="py-2 mx-auto text-white bg-blue-600 rounded-md">Required Energy Expenditure</h3>
+                    <span id="cals">0</span>
+                </div>
+                <div class="md:w-3/4 md:mx-auto">
+                    <h3 class="py-2 mx-auto text-white bg-cyan-600 rounded-md">Carbohydrates</h3>
+                    <span id="carbs">0</span>
+                </div>
+                <div class="md:w-3/4 md:mx-auto">
+                    <h3 class="py-2 mx-auto text-white bg-green-600 rounded-md">Protein</h3>
+                    <span id="protein">0</span>
+                </div>
+                <div class="md:w-3/4 md:mx-auto">
+                    <h3 class="py-2 mx-auto text-white bg-red-600 rounded-md">Fat</h3>
+                    <span id="fat">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-xl text-gray-600 pt-4 md:pt-10">
+            Coded by <a class="font-bold text-violet-700" target="_blank" href="https://www.instagram.com/soyizzat">Aristides Rodríguez</a>    
+        </div>
+    </section>
+
+    
+    <script type="text/javascript" src="./js/deficit.js"></script>
+
+</body>
+</html>

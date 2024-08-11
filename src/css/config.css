@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .wrapper{
+        @apply w-[90%] mx-auto overflow-hidden max-w-screen-xl;
+    }
+}
+
+@layer utilities{
+    .scale-101{
+        --tw-scale-x: 1.01;
+        --tw-scale-y: 1.01;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      }
+}
+    
